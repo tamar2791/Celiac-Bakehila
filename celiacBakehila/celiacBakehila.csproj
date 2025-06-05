@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BB92B5-7219-46B5-98AB-515F92372319}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>celiacBakehila</RootNamespace>
+    <AssemblyName>celiacBakehila</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\branches.cs" />
+    <Compile Include="BLL\branchesDB.cs" />
+    <Compile Include="BLL\branchManager.cs" />
+    <Compile Include="BLL\branchManagerDB.cs" />
+    <Compile Include="BLL\buy.cs" />
+    <Compile Include="BLL\buyDB.cs" />
+    <Compile Include="BLL\buyingDetails.cs" />
+    <Compile Include="BLL\buyingDetailsDB.cs" />
+    <Compile Include="BLL\category.cs" />
+    <Compile Include="BLL\categoryDB.cs" />
+    <Compile Include="BLL\cities.cs" />
+    <Compile Include="BLL\citiesDB.cs" />
+    <Compile Include="BLL\client.cs" />
+    <Compile Include="BLL\clientDB.cs" />
+    <Compile Include="BLL\GeneralDB.cs" />
+    <Compile Include="BLL\products.cs" />
+    <Compile Include="BLL\productsDB.cs" />
+    <Compile Include="BLL\saleProducts.cs" />
+    <Compile Include="BLL\saleProductsDB.cs" />
+    <Compile Include="BLL\sales.cs" />
+    <Compile Include="BLL\salesDB.cs" />
+    <Compile Include="BLL\suppliers.cs" />
+    <Compile Include="BLL\suppliersDB.cs" />
+    <Compile Include="BLL\Validation.cs" />
+    <Compile Include="BLL\volunteerLeast.cs" />
+    <Compile Include="BLL\volunteerLeastDB.cs" />
+    <Compile Include="BLL\volunteers.cs" />
+    <Compile Include="BLL\volunteersDB.cs" />
+    <Compile Include="DATA\Dal.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CategoryBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CategoryBtn.Designer.cs">
+      <DependentUpon>CategoryBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddBranch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddBranch.Designer.cs">
+      <DependentUpon>UCAddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddCategory.Designer.cs">
+      <DependentUpon>UCAddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddCity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddCity.Designer.cs">
+      <DependentUpon>UCAddCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddProduct.Designer.cs">
+      <DependentUpon>UCAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddSale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddSale.Designer.cs">
+      <DependentUpon>UCAddSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCAddSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCAddSupplier.Designer.cs">
+      <DependentUpon>UCAddSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCBMClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCBMClient.Designer.cs">
+      <DependentUpon>UCBMClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCBMProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCBMProduct.Designer.cs">
+      <DependentUpon>UCBMProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCBMSuplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCBMSuplier.Designer.cs">
+      <DependentUpon>UCBMSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCBMVolanteer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCBMVolanteer.Designer.cs">
+      <DependentUpon>UCBMVolanteer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCBranchManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCBranchManager.Designer.cs">
+      <DependentUpon>UCBranchManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCClient.Designer.cs">
+      <DependentUpon>UCClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCLstDonate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCLstDonate.Designer.cs">
+      <DependentUpon>UCLstDonate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCManagerSales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCManagerSales.Designer.cs">
+      <DependentUpon>UCManagerSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCNihul.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCNihul.Designer.cs">
+      <DependentUpon>UCNihul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCDonate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCDonate.Designer.cs">
+      <DependentUpon>UCDonate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCNowSale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCNowSale.Designer.cs">
+      <DependentUpon>UCNowSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCManager.Designer.cs">
+      <DependentUpon>UCManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCnewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCnewUser.Designer.cs">
+      <DependentUpon>UCnewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCNewVolenteer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCNewVolenteer.Designer.cs">
+      <DependentUpon>UCNewVolenteer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCOneProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCOneProduct.Designer.cs">
+      <DependentUpon>UCOneProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCOneProductClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCOneProductClient.Designer.cs">
+      <DependentUpon>UCOneProductClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCOneSal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCOneSal.Designer.cs">
+      <DependentUpon>UCOneSal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCProduct.Designer.cs">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCProductDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCProductDetail.Designer.cs">
+      <DependentUpon>UCProductDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveBrunch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveBrunch.Designer.cs">
+      <DependentUpon>UCRemoveBrunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveCategory.Designer.cs">
+      <DependentUpon>UCRemoveCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveCity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveCity.Designer.cs">
+      <DependentUpon>UCRemoveCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveProduct.Designer.cs">
+      <DependentUpon>UCRemoveProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveSupplier.Designer.cs">
+      <DependentUpon>UCRemoveSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCRemoveVolenteer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCRemoveVolenteer.Designer.cs">
+      <DependentUpon>UCRemoveVolenteer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCSal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCSal.Designer.cs">
+      <DependentUpon>UCSal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCSaleCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCSaleCategory.Designer.cs">
+      <DependentUpon>UCSaleCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCSaleProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCSaleProduct.Designer.cs">
+      <DependentUpon>UCSaleProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCSales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCSales.Designer.cs">
+      <DependentUpon>UCSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCSuppliers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCSuppliers.Designer.cs">
+      <DependentUpon>UCSuppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCuser.Designer.cs">
+      <DependentUpon>UCuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCOldVolenteer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCOldVolenteer.Designer.cs">
+      <DependentUpon>UCOldVolenteer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UCVolenteers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UCVolenteers.Designer.cs">
+      <DependentUpon>UCVolenteers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CategoryBtn.resx">
+      <DependentUpon>CategoryBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddBranch.resx">
+      <DependentUpon>UCAddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddCategory.resx">
+      <DependentUpon>UCAddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddCity.resx">
+      <DependentUpon>UCAddCity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddProduct.resx">
+      <DependentUpon>UCAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddSale.resx">
+      <DependentUpon>UCAddSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCAddSupplier.resx">
+      <DependentUpon>UCAddSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCBMClient.resx">
+      <DependentUpon>UCBMClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCBMProduct.resx">
+      <DependentUpon>UCBMProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCBMSuplier.resx">
+      <DependentUpon>UCBMSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCBMVolanteer.resx">
+      <DependentUpon>UCBMVolanteer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCBranchManager.resx">
+      <DependentUpon>UCBranchManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCClient.resx">
+      <DependentUpon>UCClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCLstDonate.resx">
+      <DependentUpon>UCLstDonate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCManagerSales.resx">
+      <DependentUpon>UCManagerSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCNihul.resx">
+      <DependentUpon>UCNihul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCDonate.resx">
+      <DependentUpon>UCDonate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCNowSale.resx">
+      <DependentUpon>UCNowSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCManager.resx">
+      <DependentUpon>UCManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCnewUser.resx">
+      <DependentUpon>UCnewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCNewVolenteer.resx">
+      <DependentUpon>UCNewVolenteer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCOneProduct.resx">
+      <DependentUpon>UCOneProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCOneProductClient.resx">
+      <DependentUpon>UCOneProductClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCOneSal.resx">
+      <DependentUpon>UCOneSal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCProduct.resx">
+      <DependentUpon>UCProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCProductDetail.resx">
+      <DependentUpon>UCProductDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveBrunch.resx">
+      <DependentUpon>UCRemoveBrunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveCategory.resx">
+      <DependentUpon>UCRemoveCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveCity.resx">
+      <DependentUpon>UCRemoveCity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveProduct.resx">
+      <DependentUpon>UCRemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveSupplier.resx">
+      <DependentUpon>UCRemoveSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCRemoveVolenteer.resx">
+      <DependentUpon>UCRemoveVolenteer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCSal.resx">
+      <DependentUpon>UCSal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCSaleCategory.resx">
+      <DependentUpon>UCSaleCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCSaleProduct.resx">
+      <DependentUpon>UCSaleProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCSales.resx">
+      <DependentUpon>UCSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCSuppliers.resx">
+      <DependentUpon>UCSuppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCuser.resx">
+      <DependentUpon>UCuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCOldVolenteer.resx">
+      <DependentUpon>UCOldVolenteer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UCVolenteers.resx">
+      <DependentUpon>UCVolenteers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pictures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1לוגו משופץ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\צילום מסך_20230529_141924.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

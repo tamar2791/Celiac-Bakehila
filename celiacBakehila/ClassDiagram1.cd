@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="celiacBakehila.BLL.branches" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACGAAAAgAAMAQAACAEAEgABABIAgAAAAAAAAAA=</HashCode>
+      <FileName>BLL\branches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.branchesDB">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAAAAAgAAAAAAAAAAAAAEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\branchesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.branchManager" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAICAABAAAEMAAAACAAAEEgAIhBgAAIAKQAAAAk=</HashCode>
+      <FileName>BLL\branchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.branchManagerDB">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\branchManagerDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.buy" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAGAAAAAAAAAAAAAABAEAACQBIAAAACQAAIAEA=</HashCode>
+      <FileName>BLL\buy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.buyDB">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAQAAAAAEgAAAAAAAAAAY=</HashCode>
+      <FileName>BLL\buyDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.buyingDetails" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQCkAAGAAAAAAQIAAACCCAAEwAiABMAAAACBAAAAAA=</HashCode>
+      <FileName>BLL\buyingDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.buyingDetailsDB">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAUAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAY=</HashCode>
+      <FileName>BLL\buyingDetailsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.category" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAQAAAgGAAAAAAAEAAAAAAAAAAAAABAAAAAACAAAAAA=</HashCode>
+      <FileName>BLL\category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.categoryDB">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAAAAAEgBAAAAAAAAAI=</HashCode>
+      <FileName>BLL\categoryDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.cities" Collapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAGAAAAAAAEAAAAAAEAEAABABAAAAABAAAAAQA=</HashCode>
+      <FileName>BLL\cities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.citiesDB">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAAAAQEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\citiesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.client" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQIAAGAAAQqIAIAKiACAAAGEBAAhhQSAIACSAAEAk=</HashCode>
+      <FileName>BLL\client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.clientDB">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAEAAAAAAAAAAAAAAAAAAAgEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\clientDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.GeneralDB" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>BLL\GeneralDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.products" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAmAIAAIIAEAACABAEEECQBABAAAAAIgAAECAA=</HashCode>
+      <FileName>BLL\products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.productsDB">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAAAAAEgACAAAAAAAAI=</HashCode>
+      <FileName>BLL\productsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.saleProducts" Collapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAHAAAAAQAAAAACgAIEEgAAABIAgAACAAAEAAA=</HashCode>
+      <FileName>BLL\saleProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.saleProductsDB">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAAY=</HashCode>
+      <FileName>BLL\saleProductsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.sales" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAGAAAAAAQAAAAEAAEAEAABQBAAAEAAQAAAAEA=</HashCode>
+      <FileName>BLL\sales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.salesDB">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAIAAAAAAAAAAEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\salesDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.suppliers" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAGAAAAAAAEAAAACAAAEAgAABAgAAEAoQABAIE=</HashCode>
+      <FileName>BLL\suppliers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.suppliersDB">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\suppliersDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.volunteerLeast" Collapsed="true">
+    <Position X="38.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAAAAAAAAAAAAAAAEAAAABIBAAACAAAAAQA=</HashCode>
+      <FileName>BLL\volunteerLeast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.volunteerLeastDB">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAACAAAAAGgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\volunteerLeastDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.volunteers" Collapsed="true">
+    <Position X="40.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAGAABAiAAICIgACAAAGEBAAhhAAAIACQAAAAk=</HashCode>
+      <FileName>BLL\volunteers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.BLL.volunteersDB">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAEAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAI=</HashCode>
+      <FileName>BLL\volunteersDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Validation" Collapsed="true">
+    <Position X="37" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAAAAghCAAEAIGAAAAAAAjQAAAAAgAhEBIgA=</HashCode>
+      <FileName>BLL\Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Form1" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAACEAABAAAACAAAACAMA4AAAAEHEMgQBAAAg=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Program" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Data.Dal" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAAAAAAAQAABABAACAAAAACAAAAAAA=</HashCode>
+      <FileName>DATA\Dal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.CategoryBtn" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAACAAAAAAAACAAAACAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\CategoryBtn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddBranch" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8iAAAgxBECAAARIQAACCABACAAAcgBAIASAAAQRAACY=</HashCode>
+      <FileName>GUI\UCAddBranch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddCategory" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAECACABAAAACAAAACQAAAgBCAACAAAARAAAY=</HashCode>
+      <FileName>GUI\UCAddCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddCity" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAABAECAAABAAAACAAAACAAAAgBKAACAAAARAAAY=</HashCode>
+      <FileName>GUI\UCAddCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddProduct" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IyBQQAAAECAgABAAAACARCCCQAAAgACAAPAQAAVAAAA=</HashCode>
+      <FileName>GUI\UCAddProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddSale" Collapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAECAAABkCAACAAAACABAIABgAAMAAAAUAAAA=</HashCode>
+      <FileName>GUI\UCAddSale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCAddSupplier" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AyBAIgAAECAAARAAAACAAAACAAAQgAAAAKIAAARAAAY=</HashCode>
+      <FileName>GUI\UCAddSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCBranchManager" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAABACAAAAAAAACAAAACAAAAAAAAAQAAAABAAgA=</HashCode>
+      <FileName>GUI\UCBranchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCClient" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAUAAAAETAIARgQAIiAQAgmARgUAAiBAEAAAwQAADI=</HashCode>
+      <FileName>GUI\UCClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCDonate" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACgAAACFAAYAAAAAmQAAQAAgAI=</HashCode>
+      <FileName>GUI\UCDonate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCLstDonate" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAACCAAAACAAgAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>GUI\UCLstDonate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCManager" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAIAgAASABAAAIACiAAEACAAAjdBgMEcQAAQBAAAA=</HashCode>
+      <FileName>GUI\UCManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCManagerSales" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAECCAADAaEIiAQEACABhYwAAAEuAhIQEkAII=</HashCode>
+      <FileName>GUI\UCManagerSales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCnewUser" Collapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9yAAIARBACAgABAwCACQADBGIAFcAAiAECAAAwBAACI=</HashCode>
+      <FileName>GUI\UCnewUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCNewVolenteer" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgBAAABBADAAABARAACAAAACAAAIAAgAAFAAAQAAAAA=</HashCode>
+      <FileName>GUI\UCNewVolenteer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCNihul" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxMIgAWYkCAgCBkBIiCEAgGSIhAMHCiFCWKDwCAABIA=</HashCode>
+      <FileName>GUI\UCNihul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCNowSale" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACACAAABAAAECCAAASAIAIAAAAsEAAAAABAAA=</HashCode>
+      <FileName>GUI\UCNowSale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCOldVolenteer" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAADAAABAQAACAAAACAAAIAAAAAFAAAQEAAAA=</HashCode>
+      <FileName>GUI\UCOldVolenteer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCOneProduct" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAABAAAACAAAACAAAAgAAAAEAAQQAAAAI=</HashCode>
+      <FileName>GUI\UCOneProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCOneProductClient" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAIAAAACAAABAAAACAAAACAAAAAAAAAGAAAQBAQAA=</HashCode>
+      <FileName>GUI\UCOneProductClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCOneSal" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAACAAAAIQAACAAAACAAAAAAAAAQAAAABEQIA=</HashCode>
+      <FileName>GUI\UCOneSal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCProduct" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAACABAAAQAAiAQAAKAAhQBAAAAMABAAAEAAA=</HashCode>
+      <FileName>GUI\UCProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCProductDetail" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAAiAAABIAAACAAAAaAAAYgAAAIGAAQQBAQAI=</HashCode>
+      <FileName>GUI\UCProductDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveBrunch" Collapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEECAAAAAAAICAQIACAAiAAAAAAQAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveBrunch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveCategory" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAECAAAAAAAACAQIACAAiYAACAAAAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveCity" Collapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAECAAAAQAAACAQIACAAiQAACAAAAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveProduct" Collapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAAAAAACBQIACAAiQAAAAAEAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveSupplier" Collapsed="true">
+    <Position X="35.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAACAAIAAAAACAQIACAAiQAAAAAMAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveSupplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCRemoveVolenteer" Collapsed="true">
+    <Position X="37" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAECAAAAAAAACAQMECAAiAAAAAABAAAAQAAAA=</HashCode>
+      <FileName>GUI\UCRemoveVolenteer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCSal" Collapsed="true">
+    <Position X="38.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgACAAABAAQACCAABCIIAMQAAAUeAAAAAwgAI=</HashCode>
+      <FileName>GUI\UCSal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCSaleCategory" Collapsed="true">
+    <Position X="40.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAACAAAACSAAAgACAIAEAAAAAAAI=</HashCode>
+      <FileName>GUI\UCSaleCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCSaleProduct" Collapsed="true">
+    <Position X="42.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAACECAAABgAAECCAEASAIAJAAgAEcAAhCQAAAA=</HashCode>
+      <FileName>GUI\UCSaleProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCSales" Collapsed="true">
+    <Position X="30" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAACAAAAAAAAKBABAiAAkAAAAEAAABAAAAAAA=</HashCode>
+      <FileName>GUI\UCSales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCSuppliers" Collapsed="true">
+    <Position X="31.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAECAAACAQAKCAQAACABhcwAAAAKAhIBAEAAI=</HashCode>
+      <FileName>GUI\UCSuppliers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCuser" Collapsed="true">
+    <Position X="33.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yBBKAUAADACANAUCACYAFAGAAF9IAiICHCRA0BAADY=</HashCode>
+      <FileName>GUI\UCuser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.GUI.UCVolenteers" Collapsed="true">
+    <Position X="35.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MiBAAAQAECAAABAQICCAQBACAAgcAAABABAAAQAEACI=</HashCode>
+      <FileName>GUI\UCVolenteers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Properties.Resources" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAADEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="celiacBakehila.Properties.Settings" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
