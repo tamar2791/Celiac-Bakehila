@@ -48,16 +48,16 @@ This is a desktop application built with C# WinForms for managing the activities
 ## 🖼️ Screenshots
 
 ### 🔐 Login Screen
-![Login](./screenshots/login.png)
+![Login](./celiacBakehila/screenshots/login.png)
 
 ### 🧑‍💼 Part Of Admin Dashboard
-![Admin Dashboard](./screenshots/admin_dashboard.png)
+![Admin Dashboard](./celiacBakehila/screenshots/admin_dashboard.png)
 
 ### 👨🏼‍💼 Part Of Station Manager Dashboard
-![Station Manager Dashboard](./screenshots/station_manager_dashboard.png.png)
+![Station Manager Dashboard](./celiacBakehila/screenshots/station_manager_dashboard.png.png)
 
 ### 🛒 Customer Order Page
-![Customer Order](./screenshots/customer_order.png)
+![Customer Order](./celiacBakehila/screenshots/customer_order.png)
 
 
 ## 🚀 Getting Started
