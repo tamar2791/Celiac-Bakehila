@@ -1,4 +1,4 @@
-# Celiac Community Management System
+# "Celiac Bakehila" Management System
 
 This is a desktop application built with C# WinForms for managing the activities of a non-profit organization supporting the celiac community. The system handles customer records, gluten-free products, volunteers, suppliers, and sales. The application supports multiple user roles, each with a customized dashboard and capabilities.
 
@@ -39,11 +39,26 @@ This is a desktop application built with C# WinForms for managing the activities
 ## 🖥 Technologies Used
 
 - C# WinForms (.NET Framework)  
-- Local database (e.g., SQL Server Express)  
+- Local database (Microsoft Access)  
 - Visual Studio  
-- Layered architecture (UI, Business Logic, Data Access)  
+- Layered architecture (DATA, BLL, GUI)  
 
 ---
+
+## 🖼️ Screenshots
+
+### 🔐 Login Screen
+![Login](./screenshots/login.png)
+
+### 🧑‍💼 Part Of Admin Dashboard
+![Admin Dashboard](./screenshots/admin_dashboard.png)
+
+### 👨🏼‍💼 Part Of Station Manager Dashboard
+![Station Manager Dashboard](./screenshots/station_manager_dashboard.png.png)
+
+### 🛒 Customer Order Page
+![Customer Order](./screenshots/customer_order.png)
+
 
 ## 🚀 Getting Started
 
@@ -51,7 +66,7 @@ This is a desktop application built with C# WinForms for managing the activities
 - Windows OS  
 - Visual Studio 2019 or newer  
 - .NET Framework installed (version as used in project)  
-- SQL Server or SQL Server Express  
+- Local database (Microsoft Access)  
 
 ### Run the Application:
 
@@ -79,39 +94,41 @@ This is a desktop application built with C# WinForms for managing the activities
 ## 📂 Project Structure
 
 ```
-/CeliacApp
+/celiacBakehila
 │
-├── Forms/                  # UI Windows Forms
-├── DataAccess/             # Database handling (CRUD)
-├── BusinessLogic/          # Core logic and calculations
-├── Models/                 # Data models (Customer, Product, etc.)
-├── Program.cs              # Main entry point
-├── App.config              # Configuration file
-├── README.md               # Project description
-└── .gitignore              # Git ignore rules
+├── BLL/                    # Business Logic Layer
+├── DATA/                   # Data Access Layer (including Access DB logic)
+├── GUI/                    # Windows Forms UI (forms and components)
+├── Properties/             # Project settings
+├── Resources/              # Resource files (e.g., icons, images)
+├── picture/                # Image files used in GUI
+├── pictures/               # Possibly additional or legacy images
+│
+├── App.config              # Application configuration file
+├── ClassDiagram1.cd        # Class diagram for system structure
+├── Form1.cs                # Main form logic
+├── Form1.Designer.cs       # Main form UI design code
+├── Form1.resx              # Resource file for form
+├── Program.cs              # Entry point for the application
+├── celiacBakehila.csproj   # C# project file
+├── celiacBakehila.sln      # Visual Studio solution file
+├── README.md               # Project documentation
+└── .gitignore              # Git ignore configuration
 ```
 
 ---
 
-## 🔒 Login Simulation (Optional)
+## 🔒 Login Simulation
 
-- Admin: `admin@example.com` / `admin123`
-- Customer: login with phone number
-- Branch Manager: predefined credentials in DB
+- Admin: `123`
+- Customer: registering for the system, and logging in with the phone number with which registration was made
+- Branch Manager: login to the customer interface with the station manager's phone number (according to data in the DB)
 
-> (These credentials are only for development/testing purposes)
-
----
-
-## 📌 Future Improvements
-
-- [ ] Add reports and analytics  
-- [ ] Multi-language support  
-- [ ] Email/SMS notifications  
-- [ ] Move to web-based UI (ASP.NET or React)  
+> (These credentials are only for development and testing purposes)
 
 ---
+
 
 ## 📃 License
 
-This project is for educational/non-commercial use.
+This project is for educational, non-commercial use.
