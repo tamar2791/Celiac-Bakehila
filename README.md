@@ -133,6 +133,9 @@ This is a desktop application built with C# WinForms for managing the activities
 
 This project is for educational, non-commercial use.
 
+---
+
+
 ## 🙋‍♀️ Used this project?
 
 If this code helped you or was useful in any way — I’d really appreciate it if you could give it a ⭐ star, open an issue, or just let me know!
